@@ -1,5 +1,5 @@
 # albertR
-R package for a grab bag of useful custom functions I've written.
+A grab bag of useful custom functions I've written. Feel free to install the package with `devtools::install_github("albertkuo/albertR")`.
 
 List of functions (sorted alphabetically):
 
