@@ -1,0 +1,15 @@
+Package: albertR
+Title: Grab bag of custom R functions
+Version: 0.1.0
+Authors@R: 
+    person(given = "Albert",
+           family = "Kuo",
+           role = c("aut", "cre"),
+           email = "albertkuo@jhu.edu")
+Description: Miscellaneous useful custom R functions.
+Depends: R (>= 4.0.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
