@@ -21,10 +21,10 @@ setdiffall <- function(x, y){
     intersection <- intersect(x, y)
 
     message(paste("", length(intersection), "elements were found in both x and y.\n",
-                   length(sd_left), "of the", length(x), "elements in x were not found in y.\n",
-                   length(sd_right), "of the", length(y), "elements in y were not found in x."))
+                   length(sd_xy), "of the", length(x), "elements in x were not found in y.\n",
+                   length(sd_yx), "of the", length(y), "elements in y were not found in x."))
 
-    return(list(sd_xy = sd_left,
-                sd_yx = sd_right,
+    return(list(sd_xy = sd_xy,
+                sd_yx = sd_yx,
                 intersection = intersection))
 }
